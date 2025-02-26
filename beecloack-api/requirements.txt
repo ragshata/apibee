@@ -1,0 +1,6 @@
+uwsgi
+flask
+pygeoip
+user-agents
+loguru
+requests
