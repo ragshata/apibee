@@ -20,11 +20,6 @@ def handle_intsrverr(e):
     abort(403)
 '''
 
-@app.route('/', methods=["GET"])
-def dev_test():
-    return redirect('https://google.gik-team.com/?q=%D0%9A%D0%B0%D0%BA+%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8C+%D0%B4%D0%BE%D0%BB%D0%B1%D0%BE%D1%91%D0%B1%D0%B0', 302)
-
-
 @app.route('/', methods=["POST"])
 def application():
     try:
